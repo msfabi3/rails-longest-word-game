@@ -4,7 +4,7 @@ class GamesController < ApplicationController
   def new
   letters = ('a'..'z').to_a
   @words = []
-  6.times { @words << letters.sample }
+  10.times { @words << letters.sample }
   end
 
   def score
